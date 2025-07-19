@@ -60,7 +60,7 @@ print(list(page_names.keys()))
 
 
 all_langs = {lang for lang, _ in langs.values()}
-wikis = {lang : wikipediaapi.Wikipedia('ShamefulBot/0.1 bot (; bernatskrabec@gmail.com)', lang) for lang in all_langs}
+wikis = {lang : wikipediaapi.Wikipedia('ShamefulBot/0.1 bot (; shame@gmail.com)', lang) for lang in all_langs}
 
 
 def create_md_page(page_name: str, lang, skip_exist=True):
